@@ -173,8 +173,6 @@ cl /nologo /MD /LD /TC /std:c11 /utf-8 /DWIN32 /D_CRT_SECURE_NO_WARNINGS ^
  /link /LIBPATH:"%PGROOT%\lib" postgres.lib /OUT:ml_preprocessing.dll /MACHINE:X64
 ```
 
-Символ `^` должен быть последним символом строки, без пробелов после него.
-
 При успешной сборке `ml_preprocessing.dll` появится **в текущей папке проекта**. Файлы `.obj`, `.exp` и создаваемая импортная `.lib` — промежуточные или вспомогательные; пользователю расширения передавать их не требуется.
 
 Проверка архитектуры DLL:

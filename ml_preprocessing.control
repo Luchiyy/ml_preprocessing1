@@ -1,0 +1,4 @@
+comment = 'ML preprocessing functions in C'
+default_version = '1.0'
+module_pathname = '$libdir/ml_preprocessing'
+relocatable = true

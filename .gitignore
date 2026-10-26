@@ -1,0 +1,51 @@
+# Результаты сборки Linux
+*.o
+*.so
+*.so.*
+*.a
+*.bc
+
+# Результаты сборки Windows
+*.obj
+*.dll
+*.lib
+*.exp
+*.exe
+*.pdb
+*.ilk
+*.idb
+*.pch
+*.tlog/
+*.lastbuildstate
+
+# Каталоги сборки
+build/
+Debug/
+Release/
+x64/
+x86/
+
+# Временные файлы Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Локальные настройки редакторов
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+
+# Временные файлы и резервные копии
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
